@@ -1,0 +1,65 @@
+h1 {
+    color:aqua;
+    margin-left:  580px;
+}
+
+h2{
+    color:blue
+}
+
+.header{
+    background-color:black;
+    display:flex;
+    justify-content: space-between  ;
+}
+
+.games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: lightcoral;
+    padding-bottom: 50px;
+}
+.siteDescription{
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.icons{
+    background-color: #3080aa;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:link{
+    color:rgb(231, 19, 203)
+}
+a:visited{
+    color:lime
+}
+.menu a{
+    margin-right: 20px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33  ;
+}
